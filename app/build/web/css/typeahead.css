@@ -1,0 +1,78 @@
+root { 
+    display: block;
+}
+
+/*
+ * Twitter Typeahead
+ * https://github.com/twitter/typeahead
+ * Copyright 2013 Twitter, Inc. and other contributors; Licensed MIT
+ */
+
+.twitter-typeahead {
+  position: relative !important;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 100%;
+  background-color: white;
+}
+
+.tt-query {
+  position: relative !important;
+  /* for unknown reasons, this fixes alignment issues in ie7 */
+  *margin-top: -1px !important;
+  vertical-align: top !important;
+}
+
+.tt-hint {
+  position: absolute !important;
+  top: 0 !important;
+  left: 11px !important;
+  width: 100%;
+  height: 100%;
+  border-color: transparent !important;
+  -webkit-box-shadow: none !important;
+     -moz-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.tt-dropdown-menu,
+.tt-suggestions,
+.tt-suggestion {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  
+}
+
+.tt-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 100; /* TODO: need default z-index, should be configurable */
+  display: none;
+  background-color: #eeeeee;
+  border: 2px solid #cfcfcf;
+  border-top: none;
+  /*width: 575px;*/
+  font-weight: bold;
+  width: 100%;
+}
+
+
+.tt-suggestion {
+  display: block;
+  white-space: nowrap;
+  cursor: pointer;
+  background-color: white;
+  height: 40px;
+  padding: 10px;
+  margin-top: 1px;
+  margin-left: 2px;
+}
+
+.tt-suggestion :hover{
+    
+    background:#FCD271;
+}

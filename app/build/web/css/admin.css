@@ -1,0 +1,54 @@
+/* 
+    Document   : admin
+    Created on : Nov 15, 2013, 9:49:11 PM
+    Author     : Nyein Su
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+/*bootstrap*/
+#box
+{
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+    background-color: #fcfcfc; 
+    padding: 20px;
+    padding-bottom: 40px
+}
+
+/*bootstrap-status round-status*/
+#content
+{
+    background-color: #fcfcfc;
+    padding: 50px 20px;
+    
+}
+
+.table
+{
+    width: 50%;
+}
+
+/*index*/
+#row { 
+    margin: auto ; 
+}
+
+
+#panelbox{
+    
+    text-align: center;
+}
+
+.panel-body .btn:not(.btn-block) {
+    width:32%;
+    margin-bottom:5px; 
+    height: 102px;
+    text-align: center;
+    padding-top: 40px; 
+}

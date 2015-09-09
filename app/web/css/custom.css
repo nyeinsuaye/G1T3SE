@@ -1,0 +1,476 @@
+/*Login page*/
+#loginButton{
+    background-color:#303038;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color:white;
+}
+
+#loginButton:hover{
+    background-color:#45454C;
+}
+
+.loginBox{
+    border-style:solid;
+    border-width:1px;
+    border-radius:5px;
+    color: #dadada;
+    padding: 0px 10px 10px 10px;
+    background:#F3F3F3;
+}
+
+
+/*General styling*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #e5e5e5;
+}
+
+#bid #nav_bid a, #timetable #nav_timetable a, #userInfo #nav_userInfo a
+{
+    background: #eeeeee;
+}
+
+
+/*Content*/
+.content
+{
+    margin: auto;
+    padding : 10px 10px 25px;
+    background-color: #ffffff;
+    height: auto;
+}
+
+
+/*Nav bar*/
+#navtabs:hover
+{
+    background-color:#ECECFF;
+}
+
+#theNavBar
+{
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px #888888;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.navbar-header img
+{
+    width : 143px;
+    height: 45px;
+    margin-left: 30px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+
+#theNavBar li a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+/*Slider tab*/
+.progress-container
+{
+    float: left;
+    width:100%;
+    height:40px;
+    font-size: 14px;
+    margin-top: 35px;
+}
+
+.slider-tab
+{
+    display:block;
+    position:absolute;
+    z-index:4;
+    width:100px;
+    height:3px;
+    height:2px;
+    margin-top:22px;
+    margin-bottom:3px;
+    background: #D13F31;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.tab
+{
+    display:block;
+    position:absolute;
+    z-index:5;
+    height:51px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #404040;
+    text-align:center;
+}
+
+.tab:hover
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #4385f5;
+    font-size: 15px;
+}
+
+.tab:nth-child(2)
+{
+    margin-left:132px;
+}
+
+.tab:nth-child(3)
+{
+    margin-left:260px;
+}
+
+/*prerequisite slidebar*/
+.progress-container-prerequisite{
+    float: left;
+    width:75%;
+    height:35px;
+    font-size: 14px;
+    margin-top: 35px;
+}
+
+.slider-tab-prerequisite{
+     display:block;
+    position:absolute;
+    z-index:4;
+    width:26%;
+    height:2px;
+    margin-top:22px;
+    margin-bottom:3px;
+    background: #D13F31;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+
+/*Timetable*/
+#timetable1, #timetable2
+{
+    padding-top: 15px;
+    width: 100%;
+}
+
+#timetable1 th
+{
+    margin: 0;
+    text-align: center;
+    border: solid #d2d2d2 1px;
+    width: 12.5%;
+    background-color: #e3e4e5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: black;
+    overflow: hidden;
+    height: 82px;
+    padding-top: 30px;
+}
+
+#timetable1 td:hover
+{
+    background-color:#ECECFF;
+    
+}
+
+#timetable1 td
+{
+    margin: 0;
+    text-align: center;
+    border: solid #dadada 1px;
+    width: 12.5%;
+    height: 82px;
+    background-color: white;
+    font-family: helvetica;
+    color: #102E37;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    overflow: hidden;
+}
+
+
+/*Exam timetable*/
+#timetable2 th, #table2 th
+{
+    margin: 0;
+    text-align: center;
+    border: solid #d2d2d2 1px;
+    width: 100px;
+    background-color: #e3e4e5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: black;
+}
+
+#timetable2 tr:hover
+{
+    background-color:#ECECFF;
+}
+
+#timetable2 td, #table2 td
+{
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#table2
+{
+    padding : 10px 20px auto;
+    width: 100%;
+    color: black;
+}
+
+#table1{
+    color:black;
+}
+
+
+/*Other information side bar*/
+#otherinfo td
+{
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
+
+#otherinfo
+{
+    border: solid #dadada 1px;
+    width: 100%;
+}
+
+.buttonbox
+{
+    border-bottom: solid #dadada 2px;
+    padding: 5px;
+}
+
+#otherinfo th
+{
+    color: #000000;
+    background-color: #e3e4e5;
+    border: 1px solid #d7d6db;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-weight: bold;
+    text-align: center;
+    padding:5px;
+}
+
+#infocontainer
+{
+    border-style:solid;
+    border-width:1px;
+    border-color:#D1D0CE;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.dropbid
+{
+    border-right: solid #dadada 1px;
+}
+
+
+/*Course List/Search List*/
+#paginated
+{
+    width: 95%;
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    background-color: #ffffff;
+    margin: 20px 15px 0;
+}
+
+#header
+{
+    border-bottom: 1px solid #cfcfcf;
+}
+
+#paginated th
+{
+    padding: 6px 6px 8px 12px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#paginated td
+{
+    padding: 6px 6px 6px 12px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#paginated tr
+{
+    height: 40px;
+}
+
+#view_button
+{
+    border-radius: 0;
+    background: #3e4d7d;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+/* Tooltip */
+label
+{
+    display: inline-block;
+    width: 5em;
+    background: #dadada;
+}
+/*End of tooltip
+/*Session page*/
+#sessionDetails:hover
+{
+    background-color:#ECECFF;
+}
+#updateButton
+{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+#dropButton
+{
+    background-color: #D13F31;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 60px;
+}
+.paginated .notBiddableCourse
+{
+    background-color: grey;
+}
+/* Set the fixed height of the footer here */
+.paginated .data:hover
+{
+    background-color:#ECECFF;
+}
+/*Search Session Result*/
+#SearchResult h3
+{
+    margin-top: 0;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#detailedInfo
+{
+    width: 70%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+#detailedInfo tr
+{
+    height:35px;
+}
+#detailedInfo td
+{
+    text-align: left;
+    vertical-align: top;
+}
+
+#theSearchBar
+{
+    height: 55px;
+    background-color: #f1f1f9;
+}
+.input-group
+{
+    padding: 10px;
+}
+/*Html form validation*/
+.tooltip 
+{
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    line-height: 20px;
+    padding: 10px;
+    font-size: 14px;
+    text-align: right;
+    color: rgb(113, 157, 171);
+    background: rgb(255, 255, 255);
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    text-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px 0px;
+    text-wrap: normal;
+    white-space: pre-line;
+}
+.success
+{
+    display: inline-table;
+    width: 15px;
+    height: 15px;
+    background: #c4e282;
+    float: right;
+    text-align: right;
+}
+.pending
+{
+    margin-left: 2px;
+    display: inline-table;
+    width: 15px;
+    height: 15px;
+    background: #f7f56f;
+    float: right;
+    text-align: right;
+    position: relative;
+    left:-7px;
+    border: 1px solid #fff340;
+}
+.outBid
+{
+    margin-left: 2px;
+    display: inline-table;
+    width: 15px;
+    height: 15px;
+    background: #D13F31;
+    float: right;
+    text-align: right;
+    position: relative;
+    left:-10px;
+    border: 1px solid #fff340;
+}
+.minPrice{
+    color:#ffffff;
+    font-size:10px;
+    text-align: left;
+}
+#userInfo
+{
+    text-decoration: none;
+    float:left;
+    color: #999;
+    cursor: pointer;
+    border: 1px solid #e6e6fc;
+    border-bottom: none;
+    margin: auto;
+}
+
